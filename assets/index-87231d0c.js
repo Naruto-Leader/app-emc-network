@@ -59,7 +59,7 @@ const M =
         e(
           "div",
           { class: "footer-text" },
-          " 2023-2024 EMC FOUNDATION. All Rights Reserved. "
+          " 2025 EMC FOUNDATION. All Rights Reserved. "
         ),
       ],
       -1
