@@ -74159,9 +74159,9 @@ const Oe = Ne(Dq, [["__scopeId", "data-v-9292b5c1"]]),
     setup(r) {
       Ze();
       const e = U(""),
-        t = U("Total Burn"),
+        t = U("Tax"),
         a = U(""),
-        n = U("EMC"),
+        n = U("%"),
         i = U(""),
         o = U(!1);
       return (
@@ -74178,7 +74178,7 @@ const Oe = Ne(Dq, [["__scopeId", "data-v-9292b5c1"]]),
           a.value = v;
           const d = Number(_a(c, 4)) || 0,
             { text: p } = Qr(d);
-          e.value = p;
+          e.value = "0/0";
         }),
         (s, l) => (
           Pt(),
@@ -74205,9 +74205,9 @@ const Pq = Ne(Lq, [["__scopeId", "data-v-7b8e614b"]]),
     __name: "token-staked",
     setup(r) {
       Ze();
-      const e = U("Total Stake"),
+      const e = U("Liquidity Pool"),
         t = U(""),
-        a = U("EMC"),
+        a = U(""),
         n = U(""),
         i = U(!1),
         o = lw(),
@@ -74276,7 +74276,7 @@ const Pq = Ne(Lq, [["__scopeId", "data-v-7b8e614b"]]),
           const p = Fs(d, l),
             g = Number(_a(p, 4)) || 0,
             { text: y } = Qr(g);
-          t.value = y;
+          t.value = "LP Burned";
         }),
         (v, d) => (
           Pt(),
