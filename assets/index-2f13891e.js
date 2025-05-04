@@ -74159,7 +74159,7 @@ const Oe = Ne(Dq, [["__scopeId", "data-v-9292b5c1"]]),
     setup(r) {
       Ze();
       const e = U(""),
-        t = U("Tax"),
+        t = U("Buy/Sell Tax"),
         a = U(""),
         n = U("%"),
         i = U(""),
@@ -74178,7 +74178,7 @@ const Oe = Ne(Dq, [["__scopeId", "data-v-9292b5c1"]]),
           a.value = v;
           const d = Number(_a(c, 4)) || 0,
             { text: p } = Qr(d);
-          e.value = "0/0";
+          e.value = "0";
         }),
         (s, l) => (
           Pt(),
