@@ -92,10 +92,10 @@ const M =
       const t = l([
         { name: "twitter", url: "https://twitter.com/EMCprotocol", imgUrl: M },
         { name: "telegram", url: "https://t.me/emc_network", imgUrl: T },
-        { name: "medium", url: "https://medium.com/@EMCProtocol", imgUrl: V },
+        { name: "medium", url: "https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000", imgUrl: V },
         {
           name: "github",
-          url: "https://github.com/EMCProtocol-dev",
+          url: "https://www.dextools.io/app/en/ether/pool-explorer/",
           imgUrl: W,
         },
       ]);
