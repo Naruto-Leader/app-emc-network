@@ -44,9 +44,9 @@ const M =
   T =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF7SURBVHgB7ZXNKwRhGMCfWcpXSm1c1teBtrQHJ8lJuYg/gLtyUaJcpOQmN0q5OLjioOTgKi5K4oDaEw5KSpGPA/bxm2bKNM2s2fViD/OrXzPz7vM+z77P++6sSExMTCmjqtXYgwt4jCn5TSjQhFO4jzn9oldMQ9IqOzGu4a0G0ygmIJGFGZzDK/zwFNnGDc/zjR0vP4EEdTiEO/jsW9U1juI4vnjGN6VYmNyJq5j17Z26z0vY7Hbg3ff5TKHFanAMD/BBg7HbOIgVuBzQBZv+qAWTuOJrl59Xd3WV6rR/PSTOXn1t1MKt6uxXGHvY5enKbp7YrBQCExLq7OssHuKTOqd3Ut0TyjWFJ5qfLSkWJpdhWj1vH+7b3S/yHRNiCpK14aVGIxOWJyGFk8aWCHGPeC4GC9d77u8wFxJ3YVlWzmThpHs9w26cxvuAuCMxCfs2757mBs9YB5769ndYTELCPkwGjNv/wYvqvDTe7F+C/CUUHMARLJeYmP/gE15Ru/wa4V3cAAAAAElFTkSuQmCC",
   V =
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGNSURBVHgB7ZS/SgNBEMb3zhNRK7FIJ8qpICrWIqS3FwWxsfEdfAB7H8DOwkKxsvEJFAIhhShYCAkiROMfEgwnyTl+w+3h3mX3ctfvBz824Zu52b2bWSGsrKxSckwGEXlYNsAamARNcAeqjuP0DTkzWAL4r6KIkLgJKiCkpH7AFVhIxTvgCLyDZ7CjeD6Yzyq2D3qUrQ6YU3K2Uv53vCmsl+DUVGw5R7FYNTAGRsGtxj+Wz6yDBsfpCl5QfvHrPpCb7Gr8utxMH3yBaa7hKcVKWMoiv1ywLaJmGtf43EA+GAETcYyrBMyCKVFM/J1KGf6iXD1ZOFGQWz0UxeQO8SkroQE+RTHdg5bB+wWP8jcfppcoiGF9w1IRxXQOHkBb4/EBnkT01gLQHYhA46waOk6nKnceRUOvG4sT+cwX2bGedssUDX44pFiTN6fk7Kb8Fv0P/hmZBl95QJn0V1sAroGfiudTHoK2PM2e4i2Blfh/1uXNF/a6iFqbx+UD3OBb1zJy+LrrIMbUSFZWVoP6Azk9PHvJeM8qAAAAAElFTkSuQmCC",
+    "/assets/dexscreener.svg",
   W =
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD2SURBVHgB7ZXhDYIwEIVfjAMwQkdgA3EDN9ANdAPcgBFwA0dgBNkANtANzmuoEYFCr8U/ype8kB70Xo+mV2DhpyGijHVn5SzVikd6rJ+d2JlVsQr4oCfSJzezABqIV+2ALed6wvPRGceW72zxHivIDF2pIcXsUQjpUN6xCo8II4HQ0HlfJPOn9jCECELDGmGUEBqW+IKhFdM5KvJHQQpPij1NU6lR+lohNecxdzDWLa9gbSCFJ+1MgqQTP1jMMoTCSU6mKtWKXW3lYQ7o/RsLam4ECjWcOvhb1gXNIdbybeZ+UP9+nL3C2XE25CJ0M1Yj7/dY+Auef1f5cGw/JgUAAAAASUVORK5CYII=",
+    "/assets/dextools.svg",
   U = (A) => (v("data-v-1781625b"), (A = A()), h(), A),
   D = { class: "footer" },
   L = { class: "footer-content" },
@@ -91,11 +91,6 @@ const M =
     setup(A) {
       const t = l([
         { name: "twitter", url: "https://twitter.com/EMCprotocol", imgUrl: M },
-        {
-          name: "discord",
-          url: "https://discord.com/invite/emcnetwork",
-          imgUrl: O,
-        },
         { name: "telegram", url: "https://t.me/emc_network", imgUrl: T },
         { name: "medium", url: "https://medium.com/@EMCProtocol", imgUrl: V },
         {
